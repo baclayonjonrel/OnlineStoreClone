@@ -35,27 +35,10 @@ OnlineStoreClone is a fully functional e-commerce application that allows users 
 
 ## Installation
 
-To get started with the Netflix Clone, follow these steps:
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/baclayonjonrel/OnlineStoreClone.git
-    ```
-
-2. Navigate to the project directory:
-    ```bash
-    cd netflix-clone
-    ```
-
-3. Install dependencies:
-    ```bash
-    npm install
-    ```
-
-4. Run the app:
-    ```bash
-    npm start
-    ```
+1. Clone this repository: `git clone https://github.com/baclayonjonrel/OnlineStoreClone.git`.
+2. On a Mac, open `OnlineStoreClone/OnlineStoreClone.xcodeproj` in Xcode.
+3. Let Xcode resolve the project's package dependencies, select the app scheme, and run on an iOS Simulator or device.
+4. Configure Firebase and Stripe for your own development environment before trying authentication or payment flows. Use Stripe test credentials for development.
 
 ## Usage
 - Run the project on the simulator or a physical device.
@@ -66,7 +49,7 @@ To get started with the Netflix Clone, follow these steps:
 
 ## Technologies Used
 
-- UIKit
+- SwiftUI and UIKit
 - Combine
 - URLSession for network requests to FakeStoreAPI (by: [MohammadReza Keikavousi](https://fakestoreapi.com/docs))
 - CoreData for local storage
